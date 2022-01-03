@@ -2,21 +2,56 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fontfamily"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="@drawable/background2"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".MainActivity">
 
-    <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/gifImageView"
-        android:layout_width="314dp"
-        android:layout_height="444dp"
-        android:src="@drawable/plant"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+    <TextView
+        android:layout_width="211dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="serif-monospace"
+        android:text="PlantaeLand"
+        android:textAlignment="center"
+        android:textColor="#013E04"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="302dp"
+        android:layout_height="476dp"
+        android:layout_marginBottom="120dp"
+        android:alpha="0.7"
+        android:src="@drawable/plant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStartExplore"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/custom_button"
+        android:text="Start Exploring"
+        android:textColor="#E5ED91"
+        app:backgroundTint="#013E04"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.button.MaterialButton>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,6 +4,11 @@
 
         <item name="android:colorPrimaryDark">#013A04</item>
     </style>
+    <style name="ButtonTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name= "colorPrimary">#012703</item>
+        <item name="colorPrimaryDark">#023304</item>
+        <item name="colorAccent">#034203</item>
+    </style>
 
 
 </resources>

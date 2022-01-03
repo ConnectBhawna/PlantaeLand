@@ -10,18 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AnimatedSplashScreen">
         <activity
+            android:name=".First_layout_activity"
+            android:parentActivityName=".MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".SpashScreenActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
