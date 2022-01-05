@@ -41,7 +41,7 @@
         android:layout_width="200sp"
         android:layout_height="50sp"
         android:layout_marginBottom="36dp"
-        android:background="@drawable/custom_button"
+        app:cornerRadius="20dp"
         android:text="Start Exploring"
         android:textColor="#E5ED91"
         app:backgroundTint="#013E04"
