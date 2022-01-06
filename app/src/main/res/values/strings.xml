@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PlantaeLand</string>
+    <string name="skip">Skip</string>
+    <string name="step_1">Step 1:</string>
 </resources>
