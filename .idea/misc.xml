@@ -5,13 +5,20 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/custom_button.xml" value="0.10185185185185185" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.21388888888888888" />
         <entry key="app/src/main/res/drawable/ic_right.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_wave.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/icon_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/icon_outer_background.xml" value="0.21388888888888888" />
+        <entry key="app/src/main/res/drawable/indicator_active_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/indicator_inactive_background.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/view_pager_background.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.11514919663351186" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16891891891891891" />
         <entry key="app/src/main/res/layout/activity_spash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/onboarding_item_container.xml" value="0.237109375" />
         <entry key="app/src/main/res/layout/onbording_item_container.xml" value="0.21" />
-        <entry key="app/src/main/res/layout/plantcare.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/plantcare.xml" value="0.1" />
       </map>
     </option>
   </component>
