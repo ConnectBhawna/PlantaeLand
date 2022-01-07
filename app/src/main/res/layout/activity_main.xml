@@ -5,7 +5,7 @@
     android:id="@+id/fontfamily"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background2"
+    android:background="@drawable/main"
     android:padding="16dp"
     tools:context=".MainActivity">
 
@@ -30,6 +30,7 @@
         android:layout_height="476dp"
         android:layout_marginBottom="120dp"
         android:alpha="0.7"
+
         android:src="@drawable/plant"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,6 +43,7 @@
         android:layout_height="50sp"
         android:layout_marginBottom="36dp"
         app:cornerRadius="20dp"
+        android:textSize="25dp"
         android:text="Start Exploring"
         android:textColor="#E5ED91"
         app:backgroundTint="#013E04"

@@ -2,4 +2,16 @@
     <string name="app_name">PlantaeLand</string>
     <string name="skip">Skip</string>
     <string name="step_1">Step 1:</string>
+
+
+    <string name="title_search">Search</string>
+    <string name="title_reminder">Reminders</string>
+    <string name="title_myGarden">My Garden</string>
+    <string name="title_profile">Profile</string>
+    <string name="reminder">Reminder</string>
+    <string name="search">Search</string>
+    <string name="my_garden">My garden</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
