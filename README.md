@@ -67,7 +67,7 @@
 
 <br><br>
 <br>
-<h2>Link  of the repository that contains code of the following readme. Have a visit on this</h2>
+<h2>Link  of the repository that contains code of the following readme. Have a visit on this,just on clicking the icon</h2>
 
 <p align="left">
 
