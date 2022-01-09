@@ -11,11 +11,26 @@
         android:theme="@style/Theme.AnimatedSplashScreen">
         <activity
             android:name=".HomeActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".HomeActivity"
+            />
         <activity
             android:name=".First_layout_activity"
             android:exported="true"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Fragment.CreateCard"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustResize"
+            />
+
+        <activity
+            android:name=".Fragment.UpdateCard"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            />
+
         <activity
             android:name=".SpashScreenActivity"
             android:exported="true"
@@ -29,6 +44,9 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"></activity>
+
+
+
     </application>
 
 </manifest>

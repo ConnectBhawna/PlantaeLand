@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/plantGreen">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif"
+        android:text="Update Details"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/create_title"
+        android:layout_width="364dp"
+        android:layout_height="53dp"
+        android:background="@drawable/header_background"
+        android:hint="Enter Task"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <EditText
+        android:id="@+id/create_priority"
+        android:layout_width="364dp"
+        android:layout_height="53dp"
+        android:background="@drawable/header_background"
+        android:hint="Priority"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.255" />
+
+    <LinearLayout
+        android:layout_width="301dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="579dp"
+        tools:ignore="MissingConstraints">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+
+            android:id="@+id/update_button"
+            android:layout_width="149dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#640475"
+            android:text="Update"
+            android:textSize="20sp" />
+
+        <Button
+
+            android:id="@+id/delete_button"
+            android:layout_width="149dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#872404"
+            android:text="Delete"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

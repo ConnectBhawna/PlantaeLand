@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../layout/custom_preview.xml" value="0.10052083333333334" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/custom_button.xml" value="0.10185185185185185" />
         <entry key="app/src/main/res/drawable/header_background.xml" value="0.1" />
@@ -21,16 +22,22 @@
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_spash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/create_card.xml" value="0.15" />
         <entry key="app/src/main/res/layout/fragment_1.xml" value="0.11514919663351186" />
         <entry key="app/src/main/res/layout/fragment_about_search.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_my_garden.xml" value="0.18" />
-        <entry key="app/src/main/res/layout/fragment_reminder.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_reminder.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.11514919663351186" />
         <entry key="app/src/main/res/layout/header_background.xml" value="0.11514919663351186" />
         <entry key="app/src/main/res/layout/onboarding_item_container.xml" value="0.237109375" />
         <entry key="app/src/main/res/layout/onbording_item_container.xml" value="0.21" />
         <entry key="app/src/main/res/layout/plantcare.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/update_card.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/view.xml" value="0.13236587510993844" />
+        <entry key="app/src/main/res/layout/view1.xml" value="0.25" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.1284722222222222" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>
