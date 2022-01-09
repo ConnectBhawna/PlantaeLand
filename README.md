@@ -42,16 +42,18 @@
 <br><br>
 
 <h4> 5. Now on clicking on get search plant button you can screen any plant .In this i use rcycler view and Api calling</h4>
-<img src="7.jpg" alt="a" width="200"/>
+<img src="11.png" alt="a" width="200"/>
 <br><br>
 
 <h4> 5. Now on clicking on get reminder button in bottom navigation bar.A screen opens with such a layout in which you can add any reminder</h4>
 <img src="8.png" alt="a" width="200"/>
-<img src="9.jpg" alt="a" width="200"/>
+<img src="12.png" alt="a" width="200"/>
 <br><br>
 
 <h4> 6. Now on clicking on mygarden button in bottom navigation bar.A screen opens with such a layout in which you can add any plant in your garden and track their progress as per months,days and years</h4>
 <img src="10.png" alt="a" width="200"/>
+
+
 
 <h2> Functionality and concepts used </h2>
 <h5>The App has a very simple and interactive interface which helps the user serach their plant and track its progress. Following are few android concepts used to achieve the functionalities in app :<br>
