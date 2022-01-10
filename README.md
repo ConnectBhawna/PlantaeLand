@@ -48,6 +48,7 @@
 <h4> 5. Now on clicking on get reminder button in bottom navigation bar.A screen opens with such a layout in which you can add any reminder</h4>
 <img src="8.png" alt="a" width="200"/>
 <img src="12.png" alt="a" width="200"/>
+<img src="13.png" alt="a" width="200">
 <br><br>
 
 <h4> 6. Now on clicking on mygarden button in bottom navigation bar.A screen opens with such a layout in which you can add any plant in your garden and track their progress as per months,days and years</h4>
@@ -60,7 +61,8 @@
 1. Constraint Layout : Most of the activities in the app uses a flexible constraint layout, which is easy to handle for different screen sizes.<br>
 2.Simple,intuitive and attractive Design : Use of  EditText with hints and interactive buttons made it easier for user .And detailed instructions pages. Apps also uses App Navigation to switch between different screens.<br>
 3. RecyclerView: For showing the data of plants i use RecyclerView . I use googleApi data for making things easlier
-4. I use room database for tracking the plant progress </h5>
+4. I use room database for tracking the plant progress<br>
+5. I use ViewModel in the app so that data will not be lost due to configuration changes.And Livedata so that get the latest data after every activity or fragment recreated. </h5>
 <br><br>
 <h2>Future scope</h2>
 <h4>The app is currently used by private or individual so i am thinking to add some more features in future in it like identify using camera about the plant diseases so that our farmers can also use it at large level or community level to know more the plant diseses just by clicking the photo.
