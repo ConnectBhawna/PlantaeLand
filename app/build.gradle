@@ -33,6 +33,7 @@ android {
 }
 
 dependencies {
+    def lifecycle_version="2.0.0"
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'
@@ -47,6 +48,12 @@ dependencies {
     implementation "androidx.viewpager2:viewpager2:1.0.0"
     //noinspection GradleCompatible,GradleCompatible
     implementation 'com.android.support:design:26.1.0'
+    // alternatively - just ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version" // For Kotlin use lifecycle-viewmodel-ktx
+// alternatively - just LiveData
+    //noinspection GradleDependency
+    implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+
 
 
 }

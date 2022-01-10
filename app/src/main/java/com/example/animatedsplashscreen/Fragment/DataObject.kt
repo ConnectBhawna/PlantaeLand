@@ -1,7 +1,7 @@
 package com.example.animatedsplashscreen.Fragment
 
 import android.webkit.WebSettings
-//aur yeh vala reminder ke liye yhah meiko mention karna padega kya title or priority
+
 object DataObject {
 
     var listdata = mutableListOf<CardInfo>()
