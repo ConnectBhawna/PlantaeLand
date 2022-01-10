@@ -71,14 +71,7 @@
 
 <br><br>
 <br>
-<h2>Link  of the repository that contains code of the following readme. Have a visit on this,just on clicking the icon</h2>
 
-<p align="left">
-
-<a href = "https://github.com/Bhawna1203/PlantaeLand"><img src="https://img.icons8.com/fluency/48/000000/github.png"/></a>
-
-
-</p>
 
 
 
